@@ -1,0 +1,49 @@
+nav {
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+
+/* .navbar{
+    height: 80px!important; 
+} */
+html{
+    overflow-x: hidden;
+    margin-right: calc(-1 * (100vw - 100%));
+  }
+
+.navbar-nav .nav-link {
+    margin-right: 14px;
+    margin-left: 14px;
+
+}
+.navbar-brand{
+    padding-left: 80px !important;
+}
+
+.navbar ul{
+    list-style-type: none;
+    overflow: hidden;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.navbar li a:hover{
+    background-color:rgb(142, 183, 233);
+    border-radius: 2px;
+    color:rgb(255, 255, 255);
+}
+.navbar li a:active{
+    background-color:rgba(235, 232, 132, 0.592);
+    border-radius: 6px;
+    color:rgb(0, 0, 0);
+}
+.navbar li{
+    float:right;
+    padding-top: 20px;
+}
+.navbar li a{
+    color:#000;
+    display:block;
+    text-decoration: none;
+    font-size: medium;
+    padding-left: 20px;
+    padding-right: 20px;
+}
