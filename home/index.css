@@ -80,42 +80,6 @@ p{
 .header{
     background: radial-gradient(white,rgb(197, 238, 230));
 }
-
-
-.carousel-indicators [data-bs-target] {
-    box-sizing: content-box;
-    flex: 0 1 auto;
-    width: 10px;
-    height: 10px;
-    padding: 0;
-    margin-right: 3px;
-    margin-left: 3px;
-    text-indent: -999px;
-    cursor: pointer;
-    background-color: rgb(0, 0, 0) !important;
-    background-clip: padding-box;
-    border: 0;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
-    opacity: .5;
-    transition: opacity .6s ease;
-    border-radius: 50%;
-}
-
-.carousel-indicators .active{
-    background-color: rgb(255, 255, 255) !important;
-}
-
-.carousel-caption h2{
-    font-family:'Times New Roman', Times, serif;
-    font-weight: 700;
-    color:whitesmoke;
-}
-.carousel-caption p{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: azure;
-    font-weight: 600;
-}
 .centered{
     font-family: 'Permanent Marker', cursive;
     color: white;
@@ -139,7 +103,7 @@ p{
     margin-left: 170px;
 }
 .text-block h3{
-    color:#27bcda;
+    color:#da2745;
     background-color: aliceblue;
     border-radius: 30px;
     text-align: center;
