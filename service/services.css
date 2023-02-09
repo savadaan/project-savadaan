@@ -53,23 +53,32 @@ html{
 
 .container{
     width: 1200px;
-    height: 600px;
+    height: 550px;
     border: 2px solid red;
     border-radius: 5px;
     padding-left: 25px;
-    margin-top: 180px;
     padding-right: 25px;
+    padding-top: 15px;
 }
 
 .padder{
     align-items: center;
     justify-content: center;
     display: flex;
-    column-gap: 15px;
-    justify-content: space-between;
+    column-gap: 90px;
 }
 
 .ims{
     height: 220px;
     width: 100%;
+}
+
+.cardier{
+    box-shadow: 0 4px 6px 0 rgba(77, 180, 231, 0.2);
+}
+
+.headtext{
+    margin-top: 180px;
+    justify-content: center;
+    padding-left: 170px;
 }
