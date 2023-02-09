@@ -11,7 +11,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 
     <!-- css -->
-    <link rel="stylesheet" href="services.css">
+    <link rel="stylesheet" href="brain.css">
 
     <!-- title -->
     <title>PROJECT SAVADAAN</title>	
@@ -40,46 +40,18 @@
 	</nav>
 
 	<div class="headtext">
-		<h3>Choose your options</h3>
+		<h3>Upload your MRI photo to the below one </h3>
+        <h2>-> BECAREFUL WHILE UPLOADING THE IMAGE. ENSURE THAT IT IS CLEAR.</h2>
 	</div>
-	<div class="container d-flex padder">
-		<div class="card cardier" style="width: 18rem;">
-			<img src="heart.jpeg" class="card-img-top ims" alt="...">
-			<div class="card-body">
-				<h5 class="card-title">Heart Disease</h5>
-				<p class="card-text">Diagnoising and know about your health</p>
-				<button onclick="openTab('http://127.0.0.1:5500/heart/heart.html')">CHECK </button>
-			</div>
+	<div class="container d-flex">
+		<div class="padder">
+			<form action="" method="POST">
+				<p> MRI image </p>
+				<input type="file" id="MRI">
+			</form>
 		</div>
-		
-		<div class="card cardier" style="width: 18rem;">
-			<img src="maternal.jpeg" class="card-img-top ims" alt="...">
-			<div class="card-body">
-				<h5 class="card-title">Maternal Disease</h5>
-				<p class="card-text">Diagnoising and know about your health</p>
-				<button onclick="openTab('https://errorsea.com')"> CHECK </button>
-			</div>
+		<div>
+			<img src="brain.gif" alt="background" style="width: 50%;margin-left: 57%;margin-top: 5%;">
 		</div>
-		
-		<div class="card cardier" style="width: 18rem;">
-			<img src="brain.jpeg" class="card-img-top ims" alt="...">
-			<div class="card-body">
-				<h5 class="card-title">Brain Tumor</h5>
-				<p class="card-text">Diagnoising and know about your health</p>
-				<button onclick="openTab('https://errorsea.com')"> CHECK </button>
-			</div>
-		</div>
-
-		<script>
-		function openTab(url) {
-			const link = document.createElement('a');
-			link.href = url;
-			link.target = '_blank';
-			document.body.appendChild(link);
-			link.click();
-			link.remove();
-		}
-		</script>
-		
 	</div>
 </body>

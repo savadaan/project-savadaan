@@ -1,9 +1,7 @@
 /* navigation bar */
-
 nav {
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
 }
-
 /* .navbar{
     height: 80px!important; 
 } */
@@ -63,10 +61,7 @@ html{
 
 .padder{
     padding-left: 10px;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    column-gap: 10px;
+    float: right;
 }
 
 .ims{
