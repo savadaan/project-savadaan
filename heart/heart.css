@@ -62,11 +62,9 @@ html{
 }
 
 .padder{
-    padding-left: 10px;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    column-gap: 10px;
+    float: left;
+    display: table;
+    /* justify-content: center; */
 }
 
 .ims{
@@ -82,4 +80,7 @@ html{
     margin-top: 180px;
     justify-content: center;
     padding-left: 170px;
+}
+input{
+    margin-left: 20px;
 }
