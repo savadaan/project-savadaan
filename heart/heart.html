@@ -38,7 +38,7 @@
 			</div>
 		</div>
 	</nav>
-
+    <script src="heart.js"></script>
 	<div class="headtext">
 		<h3>Choose your options</h3>
 		<h2 style="text-align:center">Enter the parameters for Ml model to process</h2>
@@ -62,7 +62,7 @@
                 <input type="text" id="h6" name="prevhyp" /></label>
             </fieldset>
 			<fieldset>
-                <legend> &nbsp; </legend> <br><br>
+                <legend> &nbsp; </legend> <br>
                 <label>diabaties:<br />
                 <input type="text" id="h7" name="diabaties" /></label><br />
                 <label>total cholastrol :<br />
@@ -75,9 +75,12 @@
                 <input  type="text" id="h11" name="bmi" /></label>
                 <label>HeartRate:<br />
                 <input type="text" id="h12" name="heartrate"/></label>
+                <label>glucose:<br />
+                <input type="text" id="h13" name="glucose"/></label>
             </fieldset>
 			</form>
-			<input  type="submit" value="proceed" style="margin-left:15px" class=" btn btn-secondary">
+			<button type="submit" id="btn2" value="proceed" style="margin-left:15px" onclick="predict()" class=" btn btn-secondary">proceed</button>
+
 		</div>
 		<div>
 			<img src="image.gif" alt="background" style="width: 75%;margin-left: 25%;margin-top: 5%;">
