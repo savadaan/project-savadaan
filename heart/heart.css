@@ -66,7 +66,24 @@ html{
     display: table;
     /* justify-content: center; */
 }
-
+.label {
+    display: inline-block;
+    width: 150px;
+  }
+  .flex-parent-element {
+    display: flex;
+    width: 50%;
+  }
+  
+  .flex-child-element {
+    flex: 1;
+    border: 2px solid blueviolet;
+    margin: 10px;
+  }
+  
+  .flex-child-element:first-child {
+    margin-right: 20px;
+  }
 .ims{
     height: 220px;
     width: 100%;
