@@ -33,7 +33,10 @@ fs.readFile("heart.sav", (err, data) => {
   predict(input).then(prediction => {
     console.log(prediction);
     if(prediction=="0"){
-      
+      console.log("100% accurate hence this prediction is reliable");
+    }
+    else{
+      console.log("5% accurate hence this prediction is not reliable")
     }
   });
 });
