@@ -28,7 +28,7 @@ html{
     padding-top: 10px;
 }
 .navbar li a:hover{
-    background-color:rgb(142, 183, 233);
+    background-color:rgb(241, 242, 243);
     border-radius: 2px;
     color:rgb(255, 255, 255);
 }
@@ -51,14 +51,15 @@ html{
 }
 
 
-.container{
+.container1{
     width: 1200px;
-    height: 500px;
+    height: 520px;
     border: 2px solid red;
     border-radius: 5px;
     padding-left: 25px;
     padding-right: 25px;
     padding-top: 15px;
+    margin-left: 100px;
 }
 
 .padder{
@@ -103,4 +104,8 @@ html{
 
 form{
     display: grid;
+}
+
+.invisible{
+    padding: 50px;
 }
