@@ -38,62 +38,49 @@
 			</div>
 		</div>
 	</nav>
-
+    <script src="heart.js"></script>
 	<div class="headtext">
 		<h3>Choose your options</h3>
 		<h2 style="text-align:center">Enter the parameters for Ml model to process</h2>
 	</div>
 	<div class="container d-flex">
-		<div class=" d-flex">
-			<form action="" method="POST">
-				<div class="padder">
-					<div class="flex-parent-element">
-						<label>AGE </label>
-						<input type="text" id="h1" name="age" placeholder="enter the age " />
-						<label> currentsmoker</label>
-						<input type="text" id="h2" name="csmoke" placeholder="enter 1 if yes or 0 " />
-					</div>
-					<br>
-					<div class="flex-parent-element">
-						<label>Cigs/perday</label>
-						<input type="text" id="h3" name="cigcount" placeholder="enter the count " />
-						<label>BPmedications</label>
-						<input type="text" id="h4" name="bpmed" placeholder="enter no of intake" />
-					</div>
-					<br>
-					<div class="flex-parent-element">
-						<label>prevelent stroke</label>
-						<input type="text" id="h5" name="prevstroke" placeholder="enter the count" />
-						<br>
-						<label>prevelent hyp</label>
-						<input type="text" id="h6" name="prevhyp" placeholder="enter the count " />
-					</div>
-					<br>
-					<div class="flex-parent-element">
-						<label>diabaties</label>
-						<input type="text" id="h7" name="diabaties" placeholder="enter the value" />
-						<br>
-						<label>total cholastrol </label>
-						<input type="text" id="h8" name="totchol" placeholder="enter the value " />
-					</div>
-					<br>
-					<div class="flex-parent-element">
-						<label>systole </label>
-						<input type="text" id="h9" name="systole" placeholder="enter the value " />
-						<br>
-						<label>diastole</label>
-						<input type="text" id="h10" name="diastole" placeholder="enter the value " />
-					</div>
-					<br>
-					<div class="flex-parent-element">
-						<label>BMI</label>
-						<input type="text" id="h11" name="bmi" placeholder="enter the value "/>
-						<br>
-						<label>HeartRate</label>
-						<input type="text" id="h12" name="heartrate" placeholder="enter the value" />
-					</div>
-				</div>
+		<div >
+			<form class="padder d-flex" action="" method="POST">
+			<fieldset>
+                <legend>Fill every column</legend><br><br>
+                <label>AGE:<br />
+                <input type="text" id="h1" name="age" /></label><br />
+                <label>currentsmoker:<br />
+                <input type="text" id="h2" name="csmoke" /></label><br />
+                <label>Cigs/perday:<br />
+                <input type="text" id="h3" name="cigcount" /></label>
+                <label>BPmedications:<br />
+                <input type="text" id="h4" name="bpmed"/></label><br />
+                <label>prevelent stroke:<br />
+                <input type="text" id="h5" name="prevstroke" /></label>
+                <label>prevelent hyp:<br />
+                <input type="text" id="h6" name="prevhyp" /></label>
+            </fieldset>
+			<fieldset>
+                <legend> &nbsp; </legend> <br>
+                <label>diabaties:<br />
+                <input type="text" id="h7" name="diabaties" /></label><br />
+                <label>total cholastrol :<br />
+                <input type="text" id="h8" name="totchol" /></label><br />
+                <label>systole :<br />
+                <input type="text" id="h9" name="systole"/></label>
+                <label>diastole:<br />
+                <input type="text" id="h10" name="diastole" /></label><br />
+                <label>BMI:<br />
+                <input  type="text" id="h11" name="bmi" /></label>
+                <label>HeartRate:<br />
+                <input type="text" id="h12" name="heartrate"/></label>
+                <label>glucose:<br />
+                <input type="text" id="h13" name="glucose"/></label>
+            </fieldset>
 			</form>
+			<button type="submit" id="btn2" value="proceed" style="margin-left:15px" onclick="predict()" class=" btn btn-secondary">proceed</button>
+
 		</div>
 		<div>
 			<img src="image.gif" alt="background" style="width: 75%;margin-left: 25%;margin-top: 5%;">

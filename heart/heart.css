@@ -62,9 +62,11 @@ html{
 }
 
 .padder{
-    float: left;
-    display: table;
-    /* justify-content: center; */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    column-gap: 60px;
+    justify-content: space-between;
 }
 .label {
     display: inline-block;
@@ -94,10 +96,11 @@ html{
 }
 
 .headtext{
-    margin-top: 180px;
+    margin-top: 160px;
     justify-content: center;
     padding-left: 170px;
 }
-input{
-    margin-left: 20px;
+
+form{
+    display: grid;
 }
