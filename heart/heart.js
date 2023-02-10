@@ -8,7 +8,6 @@ fs.readFile("heart.sav", (err, data) => {
     const model = await tf.loadLayersModel(data);
     return model;
   }
-  
   const model = loadModel();
 
   async function predict(input) {
